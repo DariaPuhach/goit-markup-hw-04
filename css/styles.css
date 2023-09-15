@@ -138,8 +138,8 @@ button {
 /*hero section*/
 
 .hero{
-    background-color:var(--c-primary),;
-    padding: 188px 0; url
+    background-color:var(--c-primary);
+    padding: 188px 0;
 }
 
 .hero-text{
