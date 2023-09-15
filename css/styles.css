@@ -103,8 +103,20 @@ button {
 .navigation-link{
     display: flex;
     gap: 40px;
+    
 }
 
+.navigation-link> li:first-child a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: var(--c-brand);
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+}
 .navigation{
     font-weight: 500;
     line-height: 1.5;
@@ -112,6 +124,7 @@ button {
     color: var(--c-primary);
     padding: 24px 0;
     display: inline-block;
+    position: relative;
 }
 
 .navigation:hover,.navigation:focus{
