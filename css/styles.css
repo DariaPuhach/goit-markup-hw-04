@@ -327,6 +327,10 @@ button {
 .team-contakt-icon{
     fill: var(--c-primary-light);
 }
+
+..team-contakt-link:hover ..team-contakt-link:focus{
+    background-color:var(--c-accent);
+}
 /*portfolio-section*/
 
 .portfolio-section{
